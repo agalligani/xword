@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>\{{meta.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script async src="/js/main.js"></script>
+    {{#devOnly}}
+        <script async src="//localhost:35629/livereload.js"></script>
+    {{/devOnly}}
+</head>
+<body>
+{{> navigation}}
+{{{body}}}
+{{> footer}}
+</body>
+</html>

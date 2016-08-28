@@ -1,0 +1,44 @@
+// _navigation.sass
+// Demo styles for the menu/navigation.
+
+nav
+  height: 50px
+  border-bottom: 3px solid #999
+  width: 100%
+  padding: 12px 3px
+  -webkit-font-smoothing: antialiased
+
+  .logo
+    padding: 20px 0
+    font-size: 34px
+    font-weight: bold
+  a
+    text-decoration: none
+
+  a:visited, a:active, a:link
+    color: green
+
+  a:hover
+    color: #555
+
+  .wrapper
+    width: 100%
+    margin: 0 auto
+
+  ul
+    display: block
+    float: right
+    position: relative
+    font-weight: bold
+    font-size: 15px
+    text-align: center
+    &:hover .icon-link
+      opacity: .4
+    li
+      display: inline-block
+      min-width: 36px
+      padding-top: 36px
+      color: #ffffff
+      display: inline-block
+      margin-left: 12px
+      cursor: pointer
