@@ -3,7 +3,7 @@
 express = require 'express'
 cookies = require 'cookie-parser'
 morgan = require 'morgan'
-compression = require 'compression'
+# compression = require 'compression'
 path = require 'path'
 winston = require 'winston'
 parser = require 'body-parser'
