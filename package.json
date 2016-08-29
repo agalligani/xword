@@ -1,7 +1,7 @@
 {
-  "name": "coffee-express",
+  "name": "xword",
   "version": "1.0.0",
-  "description": "Boilerplate for an express app in coffeescript",
+  "description": "Xword Application",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index.js",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harryhope/coffee-express.git"
+    "url": "https://github.com/agalligani/xword.git"
   },
   "keywords": [
     "express",
     "coffeescript",
     "grunt"
   ],
-  "author": "Harry Hope",
+  "author": "A. Galligani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harryhope/coffee-express/issues"
+    "url": "https://github.com/agalligani/xword/issues"
   },
-  "homepage": "https://github.com/harryhope/coffee-express",
+  "homepage": "https://github.com/agalligani/xword",
   "dependencies": {
     "body-parser": "^1.13.3",
     "coffee-script": "^1.9.3",
@@ -32,6 +32,7 @@
     "handlebars": "^4.0.5",
     "hbs": "^4.0.0",
     "morgan": "^1.6.1",
+    "react": "^15.2.1",
     "winston": "^2.1.1"
   },
   "devDependencies": {
