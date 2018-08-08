@@ -1,5 +1,7 @@
 module.exports = (grunt) ->
 
+  sass = require 'node-sass'
+
   # Files to monitor.
   appFiles = [
     'server.coffee',
@@ -35,6 +37,7 @@ module.exports = (grunt) ->
       all: styleFiles
       options:
         sourceMap: true
+        implementation: sass
         style: 'compressed'
       dist:
         files:
